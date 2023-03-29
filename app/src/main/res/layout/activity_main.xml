@@ -11,9 +11,9 @@
         android:layout_width="346dp"
         android:layout_height="71dp"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="232dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="81dp"
+        android:layout_marginBottom="24dp"
         android:ems="10"
         android:hint="Enter your name"
         android:inputType="textPersonName"
@@ -28,11 +28,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="153dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="164dp"
-        android:layout_marginBottom="497dp"
+        android:layout_marginBottom="274dp"
         android:text="Send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_text_id" />
 </androidx.constraintlayout.widget.ConstraintLayout>
